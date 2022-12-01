@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memoryGame</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/mian.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="score">
+            <p class="score__text">Sore: <span class="score__user-score">0</span></p>
+            <p class="score__text">Highsore: <span class="score__user-highscore">0</span></p>
+
+        </div>
+        <div class="app__column">
+            <div class="app__row">
+                <div class="card">
+                    <div id="0" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/banana.svg" alt="banana">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="1" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="svg/pearpears.svg" alt="pearpears">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="2" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/apple.svg" alt="apple">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="3" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/cherries.svg" alt="cherries">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="4" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="svg/limon.svg" alt="limon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app__column">
+            <div class="app__row">
+                <div class="card">
+                    <div id="5" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/orange.svg" alt="orange">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="6" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/pineapple.svg" alt="pineapple">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="7" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="svg/graps.svg" alt="graps">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="8" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/orange.svg" alt="orange">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="9" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/pearpears.svg" alt="pearpears">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app__column">
+            <div class="app__row">
+                <div class="card">
+                    <div id="10" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="svg/pineapple.svg" alt="pineapple">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="11" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/banana.svg" alt="banana">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="12" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/strawberry.svg" alt="strawberry">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="13" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/watermelon.svg" alt="watermelon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="14" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/apple.svg" alt="apple">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app__column">
+            <div class="app__row">
+                <div class="card">
+                    <div id="15" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/watermelon.svg" alt="watermelon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="16" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/cherries.svg" alt="cherries">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="17" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/limon.svg" alt="limon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="18" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/strawberry.svg" alt="strawberry">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__row">
+                <div class="card">
+                    <div id="19" class="card__inner">
+                        <div class="card__face card__face--front">
+                            <p class="card__question">?</p>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <img class="card__img" src="./svg/graps.svg" alt="graps">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup ">
+            <h3 class="popup__title">Congratulations</h3>
+            <p class="popup__text popup__text--score"></p>
+            <p class="popup__text popup__text--hihgscore"></p>
+            <button class="AgainBtn">Try one more time!</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
